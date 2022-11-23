@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.viewdrop-viewx{
+    @apply bg-gray-500 !important
+}
+.viewdrop-viewx{
+    @apply min-w-full inline-block p-1 text-left
+}
+.viewdrop-buttonx{
+    @apply  w-full rounded-md bg-gray-900 px-4 py-2.5 text-left text-sm font-medium text-gray-700  hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-gray-100 !important
+}
+.viewdrop-spanx{
+    @apply flex w-full items-center justify-between
+}
+.viewdrop-span2x{
+    @apply flex min-w-0 items-center justify-between space-x-3
+}
+.viewdrop-imgx{
+    @apply h-10 w-10 flex-shrink-0 rounded-full bg-gray-300
+}
+.viewdrop-xadmin{
+    @apply flex min-w-0 flex-1 flex-col
+}
+.viewdrop-xnameadmin
+{
+    @apply truncate text-sm font-medium text-gray-300
+}
+.viewdrop-xsubnameadmin{
+    @apply truncate text-sm text-gray-400
+}
+.viewdrop-arrowx{
+@apply h-5 w-5 flex-shrink-0 text-gray-100 group-hover:text-gray-500
+}
+.viewdrop-xitem{
+    @apply absolute right-0 left-0 bottom-0 z-10 mx-3 mb-[4.8rem] origin-top divide-y divide-gray-200 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none
+}
+.viewdrop-py{
+    @apply py-1
+}
+
+.viewdrop-tabcom{
+    @apply block px-4 py-2 text-sm mx-2 rounded-md my-0.5
+}
+.viewdrop-tabactive{
+    @apply bg-gray-300 text-gray-900
+}
+.viewdrop-tabnonactive
+{
+    @apply text-gray-700
+}

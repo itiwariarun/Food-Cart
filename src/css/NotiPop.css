@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pop-absolute {
+    @apply absolute pt-1  mx-4 sm:mx-8 rounded-lg flex w-11/12 sm:w-[27rem] transform max-h-[24rem] overflow-y-auto backdrop-blur-md bg-slate-700/90 text-black -translate-x-full sm:mt-12 mt-10 z-50;
+}
+.pop-root {
+    @apply flow-root px-0.5;
+}
+.pop-sticky {
+    @apply sticky z-40 w-full p-2 font-bold text-center rounded-lg bg-black/40 backdrop-blur-sm text-slate-100 top-2;
+}
+.pop-relative {
+    @apply relative px-4 py-2 pb-6 my-3 rounded-lg bg-white/60 backdrop-blur-sm;
+}
+.pop-flex {
+    @apply relative flex space-x-3;
+}
+.pop-icon {
+    @apply flex items-center justify-center w-8 h-8 mt-1 rounded-full ring-8 ring-white;
+}
+.pop-event {
+    @apply w-5 h-5 text-white;
+}
+.pop-flex1 {
+    @apply flex min-w-0 flex-1 justify-between space-x-4 pt-1.5;
+}
+.pop-text {
+    @apply text-sm text-slate-900/90;
+}
+.pop-font {
+    @apply font-medium text-blue-800;
+}
+.pop-time {
+    @apply text-sm text-right whitespace-nowrap text-slate-900/90;
+}
+.pop-all {
+    @apply sticky z-40 w-full p-2 text-sm font-semibold text-center text-blue-900 rounded-lg bg-white/95 backdrop-blur-sm hover:text-lg hover:text-blue-600 bottom-1;
+}
+.pop-scroll::-webkit-scrollbar {
+    border-radius: 3px;
+    width: 6px;
+}
+.pop-scroll::-webkit-scrollbar-thumb {
+    background: lightsteelblue;
+    border-radius: 20px;
+}

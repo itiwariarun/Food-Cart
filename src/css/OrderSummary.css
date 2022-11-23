@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* body */
+.order-body-a1{
+    @apply container min-w-full px-2 pb-5
+}
+.order-body-a2{
+    @apply flex flex-col pt-20
+}
+.order-body-a3{
+    @apply inline-block min-w-full py-2 align-middle
+}
+.order-body-a4{
+    @apply overflow-x-auto rounded-lg shadow ring-1 ring-black ring-opacity-5
+}
+/* table head */
+.order-head-a1{
+    @apply min-w-full divide-y divide-gray-300
+}
+.order-head-a2{
+    @apply whitespace-nowrap px-2 py-3.5 text-center text-sm font-semibold text-gray-900 sm:pl-6
+}
+.order-head-a3{
+    @apply whitespace-nowrap px-2 py-3.5 text-center text-sm font-semibold text-gray-900
+}
+.order-head-a4{
+    @apply whitespace-nowrap px-2 py-3.5 text-left text-sm font-semibold text-gray-900
+}
+.order-head-a5{
+    @apply bg-white divide-y divide-gray-200
+}
+/* data body */
+.order-data-a1{
+    @apply divide-x divide-gray-300 hover:bg-slate-100
+}
+.order-data-a2{
+    @apply py-2 pl-4 pr-3 text-sm text-center text-gray-500 whitespace-nowrap
+}
+.order-data-a3{
+    @apply px-2 py-2 text-sm font-medium text-left text-gray-900 whitespace-nowrap
+}
+.order-data-a4{
+    @apply px-2 py-2 text-sm text-left text-gray-900 whitespace-nowrap
+}
+.order-data-a5{
+    @apply px-2 py-2 text-sm text-center text-gray-500 whitespace-nowrap
+}

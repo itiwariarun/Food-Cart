@@ -1,0 +1,243 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* common with seller */
+.profile-a{
+    @apply  bg-white rounded-lg  md:my-16 md:mx-5
+}
+.profile-a1{
+    @apply divide-y divide-gray-200 xl:col-span-4
+}
+.profile-a2{
+    @apply px-4 py-6 overflow-auto sm:p-6 lg:pb-8
+}
+.profile-a3{
+    @apply w-8 text-4xl font-bold h-8 bg-gray-200 rounded-full m-1.5 p-2
+}
+.profile-a4{
+    @apply text-lg font-medium leading-6 text-gray-900
+}
+.profile-a5{
+    @apply mt-1 text-sm text-gray-500
+}
+.profile-a6{
+    @apply flex flex-col items-center lg:flex-row
+}
+.profile-a7
+{
+    @apply flex-grow mt-6 lg:mt-0 lg:mr-6 lg:flex-shrink-0 lg:flex-grow-0
+}
+.profile-a8{
+    @apply grid items-start p-10
+}
+.profile-img{
+    @apply rounded-full h-36 w-36
+}
+.profile-flex{
+    @apply flex-grow space-y-6
+}
+.profile-block{
+    @apply block text-xs font-medium text-gray-700 md:mt-4
+}
+.profile-about-label{
+    @apply block text-sm font-medium text-gray-700
+}
+.profile-about-text{
+    @apply text-sm md:w-5/6 xl:w-2/3
+}
+.info-a{
+    @apply grid grid-cols-12 gap-6 mt-6
+}
+.info-a1{
+    @apply col-span-12 sm:col-span-6 xl:col-span-4
+}
+.info-a2{
+    @apply block text-xs font-medium text-gray-700
+}
+
+.info-a3{
+    @apply col-span-10 sm:col-span-6 xl:col-span-4
+}
+.profile-a9{
+    @apply grid gap-5 mt-5 md:grid-cols-2 xl:grid-cols-4
+}
+.profile-a10{
+    @apply relative flex flex-col px-2 pt-5 pb-12 overflow-hidden bg-white rounded-lg shadow sm:pt-6
+}
+.profile-a11{
+    @apply absolute p-2 bg-blue-500 rounded-md
+}
+.profile-a12{
+    @apply w-4 h-4 text-white
+}
+.profile-a13{
+    @apply ml-12 text-sm font-medium text-gray-500 truncate
+}
+.profile-a14{
+    @apply flex items-baseline pb-6 ml-12 sm:pb-7
+}
+.profile-a15{
+    @apply text-lg font-semibold text-gray-900
+}
+.profile-a16{
+    @apply ml-1 flex items-baseline text-sm font-semibold
+}
+.profile-a17{
+    @apply self-center flex-shrink-0 w-3 h-3
+}
+.profile-a18
+{
+    @apply absolute inset-x-0 bottom-0 px-4 py-4 bg-gray-50 sm:px-6
+}
+.profile-a19{
+    @apply font-medium text-blue-600 hover:text-blue-500
+}
+.profile-a20
+{
+    @apply py-6 divide-y divide-gray-200
+}
+.profile-a21{
+    @apply text-sm font-medium text-gray-900
+}
+.profile-a22{
+    @apply mt-2 divide-y divide-gray-200
+}
+.profile-a23{
+    @apply flex items-center justify-between py-4
+}
+
+.switch-a1
+{
+    @apply relative ml-4 inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out border-sky-500
+}
+.switch-a2{
+    @apply inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out
+}
+.btn-a1{
+    @apply px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-200
+}
+.btn-a2{
+    @apply px-4 py-2.5 text-sm font-medium text-white bg-red-600 border border-red-700 rounded-md shadow-sm hover:bg-red-800
+}
+
+/* user profile */
+.user-a1{
+    @apply box-border py-4 pt-8 overflow-hidden md:px-4
+}
+.user-a2{
+    @apply relative pb-32 overflow-hidden bg-sky-700
+}
+.user-a3{
+    @apply absolute inset-x-0 left-1/2 w-full -translate-x-1/2 transform overflow-hidden lg:inset-y-0
+}
+.user-a4{
+    @apply absolute inset-0 flex
+}
+.user-a5{
+    @apply text-3xl font-bold tracking-tight text-center text-white
+}
+.header{
+    @apply mx-auto max-w-7xl
+}
+.header1{
+    @apply relative py-10
+}
+.main1{
+    @apply relative -mt-32
+}
+.main2{
+    @apply box-content px-4 pb-6 mx-auto lg:px-8 lg:pb-16
+
+}
+
+.main3{
+    @apply overflow-hidden bg-white rounded-lg shadow
+}
+.main4{
+    @apply divide-y divide-gray-200
+}
+.main5{
+    @apply px-4 py-6 overflow-auto sm:p-6 lg:pb-8
+}
+
+/* admin profile */
+.privacy-admin{
+    @apply mt-2 text-sm text-gray-500
+}
+.info-admin3 {
+    @apply col-span-10 sm:col-span-6
+}
+.btn-admin {
+    @apply text-sm font-semibold text-center rounded-lg my-3 mt-6 hover:bg-blue-300 px-3 py-0.5 hover:text-white text-blue-600 border-[1px] border-blue-300
+}
+
+.btn-admin2 {
+    @apply text-sm font-semibold text-center rounded-lg bg-blue-600 px-3 py-0.5 text-gray-100 hover:bg-blue-700 border-[1px] border-blue-300
+}
+/* admin contact */
+.contact-a1{
+    @apply px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8
+}
+.contact-a2{
+    @apply max-w-lg mx-auto md:grid md:max-w-none md:grid-cols-2 md:gap-8
+}
+.contact-a3{
+    @apply text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight
+}
+.contact-a4{
+    @apply text-sm text-gray-500
+}
+.contact-a5 {
+    @apply w-6 h-6 text-gray-400
+}
+.contact-a6 {
+    @apply ml-3 text-base text-gray-500
+}
+
+/* admin sidebar */
+.admin-side-a{
+    @apply box-border py-4 pt-8 overflow-hidden md:px-4
+}
+.admin-side-a1 {
+    @apply relative pb-32 overflow-hidden bg-sky-700
+}
+.admin-side-a2{
+    @apply absolute inset-x-0 left-1/2 w-full -translate-x-1/2 transform overflow-hidden lg:inset-y-0
+}
+.admin-side-a3{
+    @apply text-3xl font-bold tracking-tight text-center text-white
+}
+.admin-side-a4{
+    @apply mx-auto max-w-7xl
+}
+.admin-side-a5{
+    @apply relative py-10
+}
+.admin-side-a6{
+    @apply box-content px-4 pb-6 mx-auto  lg:px-8 lg:pb-16
+}
+.admin-side-a7{
+    @apply overflow-hidden bg-white rounded-lg shadow
+}
+.admin-side-a8{
+    @apply divide-y divide-gray-200 lg:grid lg:grid-cols-12 lg:divide-y-0 lg:divide-x
+}
+.admin-side-a9{
+    @apply py-6 lg:col-span-3
+}
+.admin-side-a10{
+    @apply bg-teal-50 border-teal-500 text-teal-700 hover:bg-teal-50 hover:text-teal-700  border-l-4 px-3 py-2 flex items-center text-sm font-medium
+}
+.admin-side-a11{
+    @apply border-transparent text-gray-900 hover:bg-gray-50 hover:text-gray-900  border-l-4 px-3 py-2 flex items-center text-sm font-medium
+}
+.admin-side-a12{
+    @apply text-teal-500 group-hover:text-teal-500
+}
+.admin-side-a13
+{
+    @apply text-gray-400 group-hover:text-gray-500
+}
+.admin-side-a14{
+    @apply flex-shrink-0 -ml-1 mr-3 h-6 w-6
+}

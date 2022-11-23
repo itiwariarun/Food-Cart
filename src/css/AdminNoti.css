@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.admin-noti1{
+    @apply z-10 flex h-full col-span-9 overflow-x-hidden
+}
+.admin-noti2{
+    @apply flex flex-col w-full max-h-full p-8 overflow-y-hidden bg-gray-50
+}
+.admin-noti3{
+    @apply pt-8 pb-2 text-sm leading-normal text-gray-600 border-b border-gray-300
+}
+.admin-noti4{
+    @apply flex p-3 mt-8 bg-white rounded
+}
+.admin-noti5{
+    @apply flex items-center justify-center w-8 h-8 border border-gray-200 rounded-full
+}
+.admin-noti6{
+    @apply pt-1 text-xs leading-3 text-gray-500
+}
+.admin-noti7
+{
+    @apply flex flex-shrink-0 w-full p-3 mt-4 bg-white rounded shadow
+}
+.admin-noti8{
+    @apply flex items-center justify-center flex-shrink-0 w-8 h-8 border border-gray-200 rounded-full
+}
+.admin-noti9{
+    @apply flex items-center justify-between w-full
+}
+.admin-noti10{
+    @apply flex w-full p-3 mt-4 bg-white rounded
+}
+.admin-noti11{
+    @apply flex w-full p-3 mt-6 bg-white rounded
+}
+.admin-noti12{
+    @apply flex items-center w-full p-3 mt-8 bg-green-100 rounded
+}
+.admin-noti13{
+    @apply flex items-center justify-center flex-shrink-0 w-8 h-8 border border-green-200 rounded-full
+}
+.admin-noti14{
+    @apply flex items-center justify-between
+}
+.admin-noti15{
+    @apply text-sm leading-none text-green-700
+}
+.admin-noti16{
+    @apply text-xs leading-3 text-green-700 underline cursor-pointer
+}
+.admin-noti17{
+    @apply flex items-center justify-between
+}
+.admin-noti18{
+    @apply flex flex-shrink-0 px-3 py-16 text-sm leading-normal text-gray-500
+}
+.color-noti-indigo{
+    @apply text-indigo-700
+}

@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.headerx{
+    @apply lg:hidden block w-auto h-4 !important
+}
+.headerxr{
+    @apply hidden lg:block w-auto h-8 !important
+}
+.headerx1{
+    @apply hidden sm:block sm:ml-6 !important
+}
+.headerx2{
+    @apply sm:hidden !important
+}
+.headerx2x{
+    @apply flex -mr-2
+}
+.headerx-fixed{
+    @apply fixed top-0 z-50 min-w-full !important
+}
+.headerx-activetab{
+    @apply px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-md
+}
+.non-headerx-activetab
+{
+    @apply px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white
+}
+.non-headerx-activetabsmall{
+    @apply block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white
+}
+.headerx-activetabsmall{
+    @apply block px-3 py-2 text-base font-medium text-white bg-gray-900 rounded-md
+}
+
+
+
+.headerx-outer{
+    @apply min-w-full sm:z-50 sm:fixed
+}
+.headerx-sticky{
+    @apply sticky top-0 z-30 bg-gray-800 sm:z-0
+}
+.headerx-open{
+    @apply min-w-full px-4 mx-auto sm:px-6 lg:px-8
+}
+.headerx-flex{
+    @apply flex items-center justify-between h-16
+}
+.headerx-center-flex{
+    @apply flex items-center
+}
+.headerx-o
+{
+    @apply flex-shrink-0
+}
+.headerx-spacex{
+    @apply flex space-x-4
+}
+.headerx-notification{
+    @apply p-1 text-gray-400 bg-gray-800 rounded-full hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800
+}
+.headerx-rel{
+    @apply relative ml-3
+}
+.headerx-menu-button{
+    @apply flex text-sm bg-gray-800 rounded-full focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800
+}
+.headerx-round{
+    @apply w-8 h-8 rounded-full
+}
+.headerx-itemx{
+    @apply absolute right-0 z-10 w-48 py-1 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none
+}
+
+.headerx-active-common{
+    @apply block px-4 py-2 text-sm text-gray-700 hover:bg-slate-200 hover:mx-2 hover:rounded-lg
+}
+.headerx-inline{
+    @apply inline-flex items-center justify-center p-2 text-gray-400 rounded-md sm:hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white
+}
+.headerx-inline-div{
+    @apply px-2 py-2 text-sm font-medium text-gray-300 rounded-md sm:hover:bg-gray-700 hover:text-white
+}
+.headerx-block
+{
+    @apply block w-6 h-6
+}
+.headerx-last{
+    @apply px-2 pt-2 pb-3 space-y-1
+}

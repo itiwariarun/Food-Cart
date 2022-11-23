@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* switch on of in this file */
+.admin-acc1{
+    @apply divide-y divide-gray-200 lg:col-span-9
+}
+.admin-acc2{
+    @apply py-6 space-y-6 sm:px-6 lg:col-span-9 lg:px-0
+}
+.admin-acc3{
+    @apply shadow sm:overflow-hidden sm:rounded-md
+}
+.admin-acc4{
+    @apply px-4 py-6 space-y-6 bg-white sm:p-6
+}
+.admin-acc5{
+    @apply text-lg font-medium leading-6 text-gray-900
+}
+.admin-acc6{
+    @apply flex flex-col
+}
+.admin-acc7{
+    @apply text-sm font-medium text-gray-900
+}
+.admin-acc8{
+    @apply text-sm text-gray-500
+}
+.admin-acc9{
+    @apply text-base font-medium text-gray-900
+}
+.admin-acc10{
+    @apply mt-4 space-y-4
+}
+.admin-acc11{
+    @apply flex items-start
+}
+.admin-acc12{
+    @apply flex items-center h-5
+}
+.admin-acc13{
+    @apply w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500
+}
+.admin-acc14{
+    @apply ml-3 text-sm
+}
+.admin-acc15{
+    @apply font-medium text-gray-700
+}
+.admin-acc16{
+    @apply flex items-center
+}
+.admin-acc17{
+    @apply w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500
+}
+.admin-acc18{
+    @apply block text-sm
+}
+.admin-acc19{
+    @apply mt-10 divide-y divide-gray-200
+}
+.admin-acc20{
+    @apply divide-y divide-gray-200
+}
+.admin-acc21{
+    @apply px-2 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5
+}
+.admin-acc22{
+    @apply text-sm font-medium text-gray-500
+}
+.admin-acc23{
+    @apply flex mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0
+}
+.admin-acc24
+{
+    @apply flex-grow
+}
+.admin-acc25{
+    @apply flex-shrink-0 ml-4
+}
+.admin-acc26{
+    @apply font-medium text-blue-600 bg-white rounded-md hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2
+}
+.switchon{
+    @apply bg-blue-600 !important
+}
+.switchof{
+    @apply bg-gray-400 !important
+}
+.switchof1{
+    @apply translate-x-0
+}
+.switchon1{
+    @apply translate-x-5
+}
+.admin-switch1{
+    @apply relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out border-blue-900 sm:ml-auto
+}
+.admin-switch2{
+    @apply inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out
+}
+.admin-switch3{
+    @apply px-2 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:border-b sm:border-gray-200 sm:py-5
+}
+.admin-switch4{
+    @apply relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out border-blue-900 sm:ml-auto
+}
+.admin-btn1{
+    @apply px-4 py-3 text-right bg-gray-50 sm:px-6
+}
+.admin-btn2{
+    @apply inline-flex justify-center px-4 py-2 text-sm font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2
+}
+/* .admin-acc29{
+    @apply
+}
+.admin-acc30{
+    @apply
+} */
+.admin-acc-color
+{
+    @apply text-gray-500
+}

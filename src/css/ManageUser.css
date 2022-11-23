@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.manage-overflow{
+    @apply overflow-hidden bg-white shadow sm:rounded-lg
+}
+.manage-u1{
+    @apply px-4 py-5 sm:px-6
+}
+.manage-head{
+    @apply text-lg font-medium leading-6 text-gray-900
+}
+.manage-subhead{
+    @apply mt-1 max-w-2xl text-sm text-gray-500
+}
+.manage-dl1{
+    @apply border-t border-gray-200
+}
+.manage-dl-div{
+    @apply bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6
+}
+.manage-dt
+{
+    @apply text-sm font-medium text-gray-500
+}
+.manage-dd{
+    @apply mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0
+}
+.manage-dl-div1{
+    @apply bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6
+}
+.manage-divide{
+    @apply divide-y divide-gray-200 rounded-md border border-gray-200
+}
+.manage-li{
+    @apply flex items-center justify-between py-3 pl-3 pr-4 text-sm
+}
+.manage-li-div{
+    @apply flex w-0 flex-1 items-center
+}
+.manage-papericon{
+    @apply h-5 w-5 flex-shrink-0 text-gray-400
+}
+.manage-li-span
+{
+    @apply ml-2 w-0 flex-1 truncate
+}
+.manage-li-div3{
+    @apply ml-4 flex-shrink-0
+}
+.manage-li-a{
+    @apply font-medium text-indigo-600 hover:text-indigo-500
+}
+.manage-a-head{
+    @apply leading-6 pt-5 font-semibold text-lg
+}
+
+.manage-desc{
+    @apply text-sm text-gray-500
+}

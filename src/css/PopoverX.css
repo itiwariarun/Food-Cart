@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.popover-open{
+    @apply text-gray-50
+}
+.popover-not-open
+{
+    @apply text-gray-200
+}
+.popover-group{
+    @apply inline-flex px-1 items-center text-left rounded-md text-base font-medium hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-slate-300 focus:ring-offset-1
+}
+.popover-arrow{
+    @apply h-4  w-4 group-hover:text-gray-300
+}
+.popover-pop{
+    @apply absolute z-50 mt-6 transform md:-translate-x-2/3 -translate-x-28
+}
+.popover-overflow{
+    @apply overflow-hidden rounded-lg mx-2 shadow-lg ring-1 ring-black ring-opacity-5
+}
+.popover-relative
+{
+    @apply relative px-5 py-4 rounded-lg z-50 bg-white sm:px-8
+}
+.popover-block
+{
+    @apply block
+}
+.popover-main{
+    @apply font-semibold text-gray-400
+}
+.popover-nav
+{
+    @apply block p-3 transition duration-150 ease-in-out rounded-md sm:pr-16 md:pr-32 hover:bg-gray-50
+}
+.popover-non-active{
+    @apply text-black
+}
+.sub{
+    @apply block pt-4
+}
+.sub2{
+    @apply font-semibold text-gray-400
+}

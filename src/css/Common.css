@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* register */
+.comm1{
+    @apply text-sm leading-none
+}
+.register-common{
+    @apply w-full px-4  sm:max-w-xl
+
+}
+.registwr-common1{
+    @apply space-y-4 sm:space-y-6
+}
+.register-common2{
+    @apply space-y-4 sm:columns-2
+}
+
+/* password */
+.pass-comm{
+    @apply flex flex-col mb-5
+}
+.pass-comm1{
+    @apply flex flex-col mb-6
+}
+.pass-comm2{
+    @apply flex w-full
+}
+
+
+/* seller */
+.seller-comm1{
+    @apply text-sm text-gray-500
+}
+.seller-comm2{
+    @apply flex flex-col
+}
+.seller-comm3{
+    @apply flex justify-end space-x-2
+}
+/* table */
+.table-comm{
+    @apply text-center hover:bg-slate-100
+}
+
