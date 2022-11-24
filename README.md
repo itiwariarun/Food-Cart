@@ -70,5 +70,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+#### ui created in react with tailwind along with paginations,framer-motion and loading screen and other things.
+![Alt text](public/img/Screenshot%202022-11-24%20144913.png?raw=true "Banner and notifiaction panel")
+![Alt text](public/img/Screenshot%202022-11-24%20145019.png?raw=true "Fresh to eat Banner")
+![Alt text](public/img/Screenshot%202022-11-24%20145044.png?raw=true "information")
+![Alt text](public/img/Screenshot%202022-11-24%20145113.png?raw=true "Helpful resources")
+![Alt text](public/img/Screenshot%202022-11-24%20145147.png?raw=true "Dashboard Home")
+![Alt text](public/img/Screenshot%202022-11-24%20145231.png?raw=true "Seller Table  with pagination")
+![Alt text](public/img/Screenshot%202022-11-24%20145253.png?raw=true "Seller Profile")
+![Alt text](public/img/Screenshot%202022-11-24%20145335.png?raw=true "Dishes")
+![Alt text](public/img/Screenshot%202022-11-24%20145424.png?raw=true "Reports")
+![Alt text](public/img/Screenshot%202022-11-24%20145457.png?raw=true "Admin Profile")
+![Alt text](public/img/Screenshot%202022-11-24%20145518.png?raw=true "Admin Notification")
+![Alt text](public/img/Screenshot%202022-11-24%20145540.png?raw=true "Resister")
 
-![Alt text](public/img/Screenshot%202022-11-24%20144913.png?raw=true "Title")
