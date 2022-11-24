@@ -47,7 +47,7 @@ function Dashboard({ children }) {
       */}
 
       <Transition.Root show={sidebarOpen} as={Fragment}>
-        <Dialog as="div" className="Ds1" onClose={setSidebarOpen}>
+        <Dialog as="div" className="Ds1 " onClose={setSidebarOpen}>
           <Transition.Child
             as={Fragment}
             enter="transition-opacity ease-linear duration-300"
@@ -57,7 +57,7 @@ function Dashboard({ children }) {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="Ds2" />
+            <div className="Ds2 " />
           </Transition.Child>
 
           <div className="Ds3 ">
@@ -194,7 +194,7 @@ function Dashboard({ children }) {
           </div>
         </div>
         <main className="flex-1 ">
-          <div className="py-12">
+          <div className="py-3">
             {" "}
             <Animation> {children}</Animation>
           </div>

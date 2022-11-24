@@ -1,0 +1,192 @@
+import {
+  BanknotesIcon,
+  UsersIcon,
+  RectangleStackIcon,
+  ArrowLeftOnRectangleIcon,
+} from "@heroicons/react/20/solid";
+import {
+  AcademicCapIcon,
+  CheckBadgeIcon,
+  ScaleIcon,
+  ClockIcon,
+  ReceiptRefundIcon,
+} from "@heroicons/react/24/outline";
+
+const actions = [
+  {
+    title: "Request time off",
+    href: "#",
+    icon: ClockIcon,
+    iconForeground: "text-teal-700",
+    iconBackground: "bg-teal-50",
+  },
+  {
+    title: "Benefits",
+    href: "#",
+    icon: CheckBadgeIcon,
+    iconForeground: "text-purple-700",
+    iconBackground: "bg-purple-50",
+  },
+  {
+    title: "Schedule a Delievry",
+    href: "#",
+    icon: UsersIcon,
+    iconForeground: "text-sky-700",
+    iconBackground: "bg-sky-50",
+  },
+  {
+    title: "Payroll",
+    href: "#",
+    icon: BanknotesIcon,
+    iconForeground: "text-yellow-700",
+    iconBackground: "bg-yellow-50",
+  },
+  {
+    title: "Submit an expense",
+    href: "#",
+    icon: ReceiptRefundIcon,
+    iconForeground: "text-rose-700",
+    iconBackground: "bg-rose-50",
+  },
+  {
+    title: "Trainned Chefs",
+    href: "#",
+    icon: AcademicCapIcon,
+    iconForeground: "text-indigo-700",
+    iconBackground: "bg-indigo-50",
+  },
+];
+const cards = [
+  {
+    name: "Account balance",
+    href: "#",
+    icon: BanknotesIcon,
+    amount: "$30,659.45",
+  },
+  { name: "New Users", href: "#", icon: UsersIcon, amount: "4,659" },
+  {
+    name: "Total Orders",
+    href: "#",
+    icon: ArrowLeftOnRectangleIcon,
+    amount: "85,659",
+  },
+  {
+    name: "Total Restaurents",
+    href: "#",
+    icon: RectangleStackIcon,
+    amount: "359",
+  },
+  { name: "Monthly Profit", href: "#", icon: ScaleIcon, amount: "$3,065" },
+
+  // More items...
+];
+const transactions = [
+  {
+    id: 1,
+    name: "Payment to Someone",
+    href: "#",
+    amount: "$20,000",
+    currency: "USD",
+    status: "success",
+    date: "July 11, 2020",
+    datetime: "2020-07-11",
+  },
+  {
+    id: 2,
+    name: "Ordered1",
+    href: "#",
+    amount: "$200",
+    currency: "USD",
+    status: "success",
+    date: "July 11, 2020",
+    datetime: "2020-07-11",
+  },
+  {
+    id: 3,
+    name: "Payment to Someone2",
+    href: "#",
+    amount: "$7,000",
+    currency: "USD",
+    status: "success",
+    date: "July 11, 2020",
+    datetime: "2020-07-11",
+  },
+  {
+    id: 4,
+    name: "Payment to Someone3",
+    href: "#",
+    amount: "$1,000",
+    currency: "USD",
+    status: "success",
+    date: "July 11, 2020",
+    datetime: "2020-07-11",
+  },
+  {
+    id: 5,
+    name: "Ordered2",
+    href: "#",
+    amount: "$2,500",
+    currency: "USD",
+    status: "success",
+    date: "July 11, 2020",
+    datetime: "2020-07-11",
+  },
+  {
+    id: 6,
+    name: "Ordered3",
+    href: "#",
+    amount: "$100",
+    currency: "USD",
+    status: "success",
+    date: "July 11, 2020",
+    datetime: "2020-07-11",
+  },
+  {
+    id: 7,
+    name: "Payment to Someone4",
+    href: "#",
+    amount: "$200",
+    currency: "USD",
+    status: "success",
+    date: "July 11, 2020",
+    datetime: "2020-07-11",
+  },
+  {
+    id: 8,
+    name: "Payment to Someone5",
+    href: "#",
+    amount: "$3400",
+    currency: "USD",
+    status: "success",
+    date: "July 11, 2020",
+    datetime: "2020-07-11",
+  },
+  {
+    id: 9,
+    name: "Payment to Someone6",
+    href: "#",
+    amount: "$20,000",
+    currency: "USD",
+    status: "success",
+    date: "July 11, 2020",
+    datetime: "2020-07-11",
+  },
+  {
+    id: 10,
+    name: "Payment to Someone",
+    href: "#",
+    amount: "$20,000",
+    currency: "USD",
+    status: "success",
+    date: "July 11, 2020",
+    datetime: "2020-07-11",
+  },
+
+  // More transactions...
+];
+const statusStyles = {
+  success: "bg-green-100 text-green-800",
+  processing: "bg-yellow-100 text-yellow-800",
+  failed: "bg-gray-100 text-gray-800",
+};
+export { statusStyles, transactions, cards, actions };

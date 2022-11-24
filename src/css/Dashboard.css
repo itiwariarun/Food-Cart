@@ -47,7 +47,7 @@
 
 
 .Ds20{
-    @apply fixed invisible pt-12  md:visible md:inset-y-0 md:flex  md:flex-col md:max-w-2xl
+    @apply fixed invisible pt-12  md:visible md:inset-y-0 md:flex md:w-72  md:flex-col md:max-w-xs
 
 }
 .Ds21{

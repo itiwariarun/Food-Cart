@@ -19,7 +19,7 @@ function App() {
         <BrowserRouter>
           <main className=" displayx">
             <Header />
-            <div className="pt-3 md:pt-16">
+            <div className=" md:pt-16">
               <div className="relative overflow-hidden">
                 <AnimatedRoute />
               </div>
